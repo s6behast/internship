@@ -1,77 +1,77 @@
 #~ #http://iopscience.iop.org/article/10.1086/505782/fulltext/
 #~ Title: Stellar Rotation in Young Clusters. I. Evolution of Projected Rotational 
-        #~ Velocity Distributions
+    #~ Velocity Distributions
 #~ Authors: Huang W., Gies D.R. 
 #~ Table: Projected Rotational Velocities of B Stars in 19 Open Clusters
 #~ ================================================================================
 #~ Byte-by-byte Description of file: datafile3.txt
 #~ --------------------------------------------------------------------------------
-   #~ Bytes Format Units   Label   Explanations
+#~ Bytes Format Units   Label   Explanations
 #~ --------------------------------------------------------------------------------
-   #~ 1-  7 A7     ---     Name    Cluster name
-   #~ 9- 13 I5     ---     WEBDA   Webda ID (http://obswww.unige.ch/web) (1)
-  #~ 15- 17 I3     km/s    vsini   Derived projected rotational velocity 
-  #~ 19- 20 I2     km/s  e_vsini   Measurement error in vsini 
-  #~ 22- 27 F6.1   km/s    Vr(N1)  Radial velocity from first night (2)
-  #~ 29- 34 F6.1   km/s    Vr(N2)  ? Radial velocity from second night if available
-                                 #~ (2)
-  #~ 36- 41 F6.1   km/s    Vr(N3)  ? Radial velocity from third night if available
-                                 #~ (2)
-  #~ 43- 46 F4.1   ---     SpType  Index of estimated pseudo-spectral type (3)
-  #~ 48-142 A95    ---     Notes   Additional notes 
+#~ 1-  7 A7     ---     Name    Cluster name
+#~ 9- 13 I5     ---     WEBDA   Webda ID (http://obswww.unige.ch/web) (1)
+#~ 15- 17 I3     km/s    vsini   Derived projected rotational velocity 
+#~ 19- 20 I2     km/s  e_vsini   Measurement error in vsini 
+#~ 22- 27 F6.1   km/s    Vr(N1)  Radial velocity from first night (2)
+#~ 29- 34 F6.1   km/s    Vr(N2)  ? Radial velocity from second night if available
+                             #~ (2)
+#~ 36- 41 F6.1   km/s    Vr(N3)  ? Radial velocity from third night if available
+                             #~ (2)
+#~ 43- 46 F4.1   ---     SpType  Index of estimated pseudo-spectral type (3)
+#~ 48-142 A95    ---     Notes   Additional notes 
 #~ --------------------------------------------------------------------------------
 #~ Note (1): For stars not in the WEBDA database, we assign a number > 10000
-          #~ and give an identification and coordinates for epoch 2000.0 
-          #~ in the "Notes" column; the other stars are listed using 
-          #~ the Webda numbering systems from the following sources: 
-    #~ Ber86   = Forbes 1981;
-    #~ IC1805  = Vasilevskis, Sanders, & van Altena 1965;
-    #~ IC2395  = Claria et al. 2003;
-    #~ IC2944  = Ardeberg & Maurice 1977;
-    #~ NGC457  = Boden 1946;
-    #~ NGC869  = Oosterhoff 1937;
-    #~ NGC884  = Oosterhoff 1937;
-    #~ NGC1502 = Purgathofer 1964;
-    #~ NGC2244 = Ogura & Ishida 1981;
-    #~ NGC2362 = Johnson 1950;
-    #~ NGC2384 = Vogt & Moffat 1972;
-    #~ NGC2422 = van Schewick 1966;
-    #~ NGC2467 = Loden 1966;
-    #~ NGC3293 = Turner et al. 1980;
-    #~ NGC4755 = Arp & van Sant 1958;
-    #~ NGC6193 = Moffat & Vogt 1973;
-    #~ NGC7160 = Hoag et al. 1961;
-    #~ TR14    = Feinstein, Marraco, & Muzzio 1973;
-    #~ TR16    = Feinstein, Marraco, & Muzzio 1973.
+      #~ and give an identification and coordinates for epoch 2000.0 
+      #~ in the "Notes" column; the other stars are listed using 
+      #~ the Webda numbering systems from the following sources: 
+#~ Ber86   = Forbes 1981;
+#~ IC1805  = Vasilevskis, Sanders, & van Altena 1965;
+#~ IC2395  = Claria et al. 2003;
+#~ IC2944  = Ardeberg & Maurice 1977;
+#~ NGC457  = Boden 1946;
+#~ NGC869  = Oosterhoff 1937;
+#~ NGC884  = Oosterhoff 1937;
+#~ NGC1502 = Purgathofer 1964;
+#~ NGC2244 = Ogura & Ishida 1981;
+#~ NGC2362 = Johnson 1950;
+#~ NGC2384 = Vogt & Moffat 1972;
+#~ NGC2422 = van Schewick 1966;
+#~ NGC2467 = Loden 1966;
+#~ NGC3293 = Turner et al. 1980;
+#~ NGC4755 = Arp & van Sant 1958;
+#~ NGC6193 = Moffat & Vogt 1973;
+#~ NGC7160 = Hoag et al. 1961;
+#~ TR14    = Feinstein, Marraco, & Muzzio 1973;
+#~ TR16    = Feinstein, Marraco, & Muzzio 1973.
 #~ Note (2): The heliocentric Julian date of observation for each night:
-                  #~ HJD(N1)           HJD(N2)           HJD(N3)
-    #~ Ber86     2451862.642       2451864.584                  
-    #~ IC1805    2451861.825       2451863.820                  
-    #~ IC2395    2451950.677       2451952.586                  
-    #~ IC2944    2451949.873       2451951.752       2451952.845
-    #~ NGC457    2451862.722       2451864.755                  
-    #~ NGC869    2451861.686       2451863.734                  
-    #~ NGC884    2451862.828       2451864.824                  
-    #~ NGC1502   2451862.973       2451864.928                  
-    #~ NGC2244   2451861.950       2451863.938       2451865.007
-    #~ NGC2362   2451949.558       2451951.563                  
-    #~ NGC2384   2451949.615       2451951.613                  
-    #~ NGC2422   2451862.030       2451864.017                  
-    #~ NGC2467   2451949.683       2451952.538                  
-    #~ NGC3293   2451950.744       2451952.637                  
-    #~ NGC4755   2451951.850       2451952.793                  
-    #~ NGC6193   2451951.894       2451952.882                  
-    #~ NGC7160   2451861.606       2451864.657                  
-    #~ TR14      2451950.861                                    
-    #~ TR16      2451949.774                                    
+              #~ HJD(N1)           HJD(N2)           HJD(N3)
+#~ Ber86     2451862.642       2451864.584                  
+#~ IC1805    2451861.825       2451863.820                  
+#~ IC2395    2451950.677       2451952.586                  
+#~ IC2944    2451949.873       2451951.752       2451952.845
+#~ NGC457    2451862.722       2451864.755                  
+#~ NGC869    2451861.686       2451863.734                  
+#~ NGC884    2451862.828       2451864.824                  
+#~ NGC1502   2451862.973       2451864.928                  
+#~ NGC2244   2451861.950       2451863.938       2451865.007
+#~ NGC2362   2451949.558       2451951.563                  
+#~ NGC2384   2451949.615       2451951.613                  
+#~ NGC2422   2451862.030       2451864.017                  
+#~ NGC2467   2451949.683       2451952.538                  
+#~ NGC3293   2451950.744       2451952.637                  
+#~ NGC4755   2451951.850       2451952.793                  
+#~ NGC6193   2451951.894       2451952.882                  
+#~ NGC7160   2451861.606       2451864.657                  
+#~ TR14      2451950.861                                    
+#~ TR16      2451949.774                                    
 #~ Note (3): The index table for pseudo-spectral subtype:                              
-    #~ 0  = O9.5 V,  1  = O9.8 V,                                                
-    #~ 2  = B0 V,    3  = B0.3 V,  4  = B0.5 V, 5  = B1 V,                        
-    #~ 6  = B1.5 V   7  = B2 V,    8  = B2.5 V, 9  = B3 V,                        
-    #~ 10 = B3.5 V,  11 = B4 V,    12 = B4.5 V, 13 = B5 V,                        
-    #~ 14 = B5.5 V,  15 = B6 V,    16 = B6.5 V, 17 = B7 V,                        
-    #~ 18 = B7.5 V,  19 = B8 V,    20 = B8.5 V, 21 = B9 V.                   
-#~ --------------------------------------------------------------------------------
+#~ 0  = O9.5 V,  1  = O9.8 V,                                                
+#~ 2  = B0 V,    3  = B0.3 V,  4  = B0.5 V, 5  = B1 V,                        
+#~ 6  = B1.5 V   7  = B2 V,    8  = B2.5 V, 9  = B3 V,                        
+#~ 10 = B3.5 V,  11 = B4 V,    12 = B4.5 V, 13 = B5 V,                        
+#~ 14 = B5.5 V,  15 = B6 V,    16 = B6.5 V, 17 = B7 V,                        
+#~ 18 = B7.5 V,  19 = B8 V,    20 = B8.5 V, 21 = B9 V.                   
+#~ ------------------------------------
 Ber86       1 184  7   30.3   30.8         1.3
 Ber86       3 192 10  -24.6    7.5         4.0 SB2
 Ber86       4 178  8   17.2   45.2         1.0 SB2
