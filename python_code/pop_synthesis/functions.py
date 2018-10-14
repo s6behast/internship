@@ -15,7 +15,7 @@ def read_dat2file(f):
                 '9:v_surf[km/s]', '10:P[days]', '11:H', '12:He', '13:Li', '14:Be', '15:B', '16:C', '17:N', '18:O', 
                 '19:F', '20:Ne', '21:Na', '22:Mg', '23:Al', '24:Si', '25:Fe', '26:H_massfr', '27:He_massfr']
      
-    df= pd.read_csv(f, delim_whitespace=True,comment='#', names=col_names, usecols=wanted_cols)    
+    df= pd.read_csv(f, delim_whitespace=True,comment='#', names=col_names)#, usecols=wanted_cols)    
     
     if "-0" in str(f): # for non-rotating star, add 0 vsurf and vcrit columns 
         df['8:v_crit[km/s]'] =0       
